@@ -1,0 +1,25 @@
+1.3.	Project Scope
+1.	Development of core communication mechanisms: The Secure IPC Framework implements three core communication mechanisms: Shared Memory, Pipes, and Sockets. Each mechanism is designed for secure, efficient, and scalable inter-process communication while integrating encryption, authentication, and access control.
+
+2.	Design of a consistent API across platforms: The API is designed to work across Linux, Windows, and macOS, providing a unified interface for shared memory, pipes, and sockets. 
+3.	Support for both synchronous and asynchronous communication patterns: synchronous means Blocking communication where the sender waits for a response.
+Asynchronous means Non-blocking communication, allowing parallel execution.
+
+4.	Implementation of access control mechanisms: The Secure IPC Framework
+integrates robust access control mechanisms to enforce security policies, prevent unauthorized communication, and protect sensitive data.
+
+5.	Performance testing and optimization: Ensuring high performance in secure inter-proces
+s communication (IPC) is critical for real-time systems, high-throughput applications, and low-latency communication.
+This section outlines performance testing methodologies and optimization strategies for the Secure IPC Framework.
+
+
+6.	Support for legacy systems older than 5 years: Ensuring compatibility with legacy systems (5+ years old) is crucial for 
+industries where upgrading is costly (e.g., banking, healthcare, industrial automation). The Secure IPC Framework provides backward compatibility while maintaining security and performance.
+
+7.	Support for real-time operating systems: Integrating secure inter-process communication (IPC) mechanisms into real-time operating
+systems (RTOS) requires low-latency, deterministic, and minimal-overhead designs. The Secure IPC Framework ensures compatibility with RTOS
+environments used in embedded systems, industrial automation, automotive, and aerospace applications.
+
+8.	GUI tools for administration: To simplify management, monitoring, and debugging of the Secure IPC Framework, we provide Graphical User Interface
+(GUI) tools. These tools offer real-time monitoring, configuration management, and security auditing for IPC mechanisms.
+
