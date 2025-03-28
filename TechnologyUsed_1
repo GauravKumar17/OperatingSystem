@@ -1,0 +1,30 @@
+4.	Technologies Used
+
+This section outlines the recommended programming languages, libraries, and tools for implementing a secure inter-process communication (IPC) framework. These technologies ensure performance, security, scalability, and maintainability while supporting various platforms and communication patterns.
+
+4.1.	Programming Languages:
+1.	C++:
+•	Used for the core IPC implementation requiring high performance and direct system access.
+•	Provides low-level control over memory and system resources.
+•	Suitable for implementing shared memory, sockets, pipes, and message queues.
+•	Works well with security libraries like OpenSSL and libsodium.
+Use cases:
+•	Core IPC mechanisms (shared memory, pipes, sockets).
+•	High-performance and low-latency applications.
+•	System-level programming with direct OS interaction.
+2.	Rust:
+•	Ensures memory safety without garbage collection.
+•	Eliminates buffer overflows, use-after-free, and other memory vulnerabilities.
+•	Ideal for security-sensitive IPC applications.
+Use cases:
+•	Secure IPC framework components (e.g., authentication, encryption).
+•	Memory-safe implementations of cryptographic operations.
+•	High-reliability systems with strict security requirements.
+3.	Python:
+•	Used for high-level APIs, scripting, testing, and automation
+•	Provides rapid development with libraries for serialization (JSON, Protocol Buffers), networking, and security.
+•	Ideal for example applications, debugging tools, and administrative interfaces.
+Use cases:
+•	API development and integration testing.
+•	Writing example applications for end-users.
+•	Rapid prototyping of communication layers.
